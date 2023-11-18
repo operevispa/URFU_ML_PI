@@ -1,0 +1,4 @@
+# requirements for qa_stlit project
+streamlit
+transformers
+tensorflow-cpu
