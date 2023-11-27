@@ -57,6 +57,17 @@ ______
 
 _____
 ## Шешин Н.А. 
-### Задание 1: Выбран тип модели Zero-Shot Image Classification. Модель - openai/clip-vit-large-patch14. В скрипте sheshin_clip.py представлен пример запуска данной модели.
+### Задание 1
+Выбран тип модели Zero-Shot Image Classification. Модель - openai/clip-vit-large-patch14. В скрипте sheshin_clip.py представлен пример запуска данной модели.
 
+### Задание 2
+Было разработано web-приложение на основе библиотеки streamlit. Данное приложение организует работу с ранее выбранной моделью для классификации изображений на произвольных классах.
+
+Код состоит из:
+1. Обертка для модели - [Practice2/clip_classifier.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/SheshinProject/Practice2/clip_classifier.py)
+2. Скрипт конструирующий само web-приложение - [Practice2/page.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/SheshinProject/Practice2/page.py)
+
+Приложение:
+- Запускается приложение с помощью команды - ```streamlit run page.py```
+- Скриншоты работы приложения можно найти в папке [Practice2/screenshots](https://github.com/nasheshin01/URFU_ML_PI/blob/master/SheshinProject/Practice2/screenshots)
 
