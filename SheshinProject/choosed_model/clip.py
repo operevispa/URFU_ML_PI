@@ -1,8 +1,7 @@
-from PIL import Image
 import requests
-import numpy as np
 
-from transformers import CLIPProcessor, CLIPModel, pipeline
+from PIL import Image
+from transformers import pipeline
 
 classifier = pipeline(model="openai/clip-vit-large-patch14")
 
