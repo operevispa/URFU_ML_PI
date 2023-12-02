@@ -1,13 +1,13 @@
 # URFU_ML_PI, group 2.11
 ## students: Sheshin N.A., Ivanov S.A., Perevispa O.V., Ovchar E.A.
 
-## Перевиспа О.В. 
+## Перевиспа О.В. [папка perevispa]
 ### Задание 1: Выбор модели предобученной модели МО и реализация скрипта
 Выбран тип модели question-answering, модель timpal0l/mdeberta-v3-base-squad2. 
-Пример работы модели [в скрипте qa.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/qa.py)
+Скрипт с работой модели [в файле qa.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/qa.py)
 
 ### Задание 2: Создание web-приложения МО на локальном компьютере
-Ранее выбранная модель перенесена в приложение streamlit. Скриншоты работы приложения в scshots. Скрипт с приложением на streamlit [в файле qa_stlit.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/qa_stlit.py)
+Ранее выбранная модель перенесена в приложение streamlit. Скриншоты работы приложения в perevispa/scshots. Скрипт с приложением на streamlit [в файле qa_stlit.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/qa_stlit.py)
 
 ### Задание 3: Создание API-интерфейса для модели МО на локальном компьютере
 Ранее выбранная модель пренесена в скрипт qa_fapi.py для работы с моделью через запросы API. Реализовано:
