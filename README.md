@@ -22,14 +22,6 @@
 - Тип модели `question-answering`, модель `timpal0l/mdeberta-v3-base-squad2`.
 - Модель возвращает ответ на вопрос пользователя на основании переданного контекста. Вопрос отправляется методом POST на адрес `http://158.160.48.28:8000/predict/`. Тело запроса: json объект с двумя переменными, в переменной `text` собственно отправляется вопрос к модели. 
 _____
-**Пример тела запроса (json):**
-```json
-{
-  "text": "Как называется ваша компания?",
-  "num": 0
-}
-```
-______
 **Пример curl запроса:**
 ```bash
 curl -X 'POST' \
@@ -52,8 +44,10 @@ ______
 }
 ```
 
-*Виртуальную машину создавал на примере из лекции и выбрал опцию "прерываемая". Поэтому нет гарантий, что на момент просомтра ДЗ ВМ будет работать.*
-
+### Задание 5: Тестирование, GitHub Action
+- скрипт с моделью [в файле qa_fapi.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/qa_fapi.py)
+- скрипт с тестами [в файле test_qa_fapi.py](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/test_qa_fapi.py)
+- скриншоты [первый](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/scshots/tests_2023_12_02_1.png), [второй](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/scshots/tests_2023_12_02_2.png), [третий](https://github.com/nasheshin01/URFU_ML_PI/blob/master/perevispa/scshots/tests_2023_12_02_3.png)
 
 _____
 ## Шешин Н.А. 
