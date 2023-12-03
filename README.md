@@ -101,3 +101,6 @@ _____
 
 - Тест корневой страницы API - test_root
 - Тест работы модели через API - test_predict
+
+На этом скриншоте видно прохождение тестов:
+![Alt text](SheshinProject/screenshots/image.png)
