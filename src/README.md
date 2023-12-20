@@ -1,5 +1,5 @@
 # URFU_ML_PI, group 2.11
-### students: Sheshin N.A., Ivanov S.A., Perevispa O.V., Ovchar E.A.
+### students: Sheshin N.A., Perevispa O.V., Ovchar E.A.
 
 ### О проекте
 В качестве итогового задания по курсу Программная инженерия выбрана реализация API-приложения.
