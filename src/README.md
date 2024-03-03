@@ -29,7 +29,7 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
-  "text": "Кто преподаватель предмета?",
+  "text": "Какой предмет мы учим?",
   "num": 0
 }'
 ```
@@ -37,9 +37,9 @@ ______
 **Пример 200 ответа (body response):**
 ```json
 {
-  "score": 0.9657419323921204,
-  "start": 21,
-  "end": 29,
-  "answer": "Александр Токарев"
+  "score": 0.012033594772219658,
+  "start": 4,
+  "end": 26,
+  "answer": " Программная инженерия"
 }
 ```
